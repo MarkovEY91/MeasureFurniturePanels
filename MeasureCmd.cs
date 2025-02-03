@@ -30,7 +30,7 @@ namespace MeasureFurniturePanels
                 // MarkFurniture(_doc);
                 FurnitureUtils.ProcessDirectShapes(_doc, 1308511);
 
-                // TaskDialog.Show("Инфо", "Готово");
+                TaskDialog.Show("Инфо", "Готово");
                 return Result.Succeeded;
             }
             catch (CustomWarningException e)
